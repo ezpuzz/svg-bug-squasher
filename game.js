@@ -146,6 +146,7 @@ function pause(){
     continueButton.onClick = function(event) {
 	levelUp();
 	ready = true;
+	this.remove();
     };
 
 }
